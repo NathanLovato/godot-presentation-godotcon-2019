@@ -1,0 +1,237 @@
+#+title: Creating Open Games Together with Godot
+#+description: Script and notes for the presentation
+
+* Pitch
+
+At GDQuest, we've learned to make free software creating small demos, tools, and tutorials for the community.
+This year was essential for us as we focused on complex projects and learned to work as a team.
+The next step is to build free and open-source games that both go beyond entertainment and benefit the community.
+Everyone is welcome to join us on this journey to become better game developers and create meaningful projects together.
+
+Nathan is a game creation tutor and free software advocate. He makes tutorials for programs like Godot and Krita, and releases all his code open sources.
+
+* Notes
+
+  *Goal*: spark interest and raise awareness about the creation of FOSS games about ecology
+
+  Some ideas to share:
+
+  - There's nothing as rewarding as sharing with reciprocity.
+  - There is nothing like creating something greater than ourselves together.
+  - We need to bring people together to achieve great results.
+
+** TED talks todo
+
+   1. Give people a reason to care: Use curiosity, intriguing or provocative questions, to help people link the pieces together
+   2. Build the idea with the listeners' language, using metaphores, one brick at a time
+   3. Make your idea worth sharing
+
+* Script
+
+** My Secret to Personal Growth
+
+   I'm coming to you with a secret: my secret for growing fast in your life.
+   It's the trick I've used to go from doing nothing, playing games all day, to
+   creating a successful company teaching and contributing to free software.
+
+** What you'll learn
+
+   In this presentation, you will learn:
+
+   - How you can become a better game dev efficiently even without any formal education
+   - That free software is a good thing as if you did not know
+   - And this will lead us to talk about making Open games together and why collaborating that way matters.
+
+   But first, let me tell you a story.
+
+** Master Procrastinator
+
+   I used to be a master procrastinator. In my teenage years, I would talk at
+   length about starting projects and never really get anything done. I would
+   write down intricate ideas in great detail, pitch them on forums, and then
+   double click on "World of Warcraft" where I'd spend the rest of the week. I
+   was never really motivated to finish projects, let alone to get them started.
+
+** Scared?
+
+   I was a fearful kid. It would just take for a truck to drive through the
+   street closest to our home for me to run back to my mum in tears.
+
+   I was afraid of everything and anything new. Afraid to go to school, afraid
+   to learn to swim.
+
+   My parents like to tell an anecdote — my first swimming lesson.
+
+   I was 6 or 7, I think? They put me in the pool and asked me to do the
+   breaststroke. As the story goes, I started swimming, and with each move, I was
+   saying: "I won't make it, I won't make it."
+
+   That's who I was back then. I was afraid of change and, as I would only
+   understand much later, of the responsibility of success, and the shame of
+   failure. These are the two possible outcomes if you plan to get anything done.
+
+** And then, there was GDQuest
+
+   Fast-forward a few years, and I now work more than ever. I run a social
+   company, take projects to completion, keep working even when things get hard,
+   especially when they get hard. I can take risks, make mistakes, fail, and
+   hopefully succeed sometimes. How did we go from scared chubby little Nathan
+   to a full-time independent developer?
+
+   It's like climbing a mountain: for most of the way, I couldn't really measure
+   the progress. It took time and diligence. But looking back I'm certain of one
+   thing: *working in free software* had a lasting positive impact on me
+   professionally and personally.
+
+** Self-Taught
+
+   I have to confess something. I did not learn to code at school. I'm what
+   you'd call a "self-taught" developer. But this, to me, hides a different
+   reality: I learned in books, tutorials, with the help of manuals, and
+   mentors. All of these tutors who created all the resources I've used are my
+   mentors. So I learned from people, and they got me where I am now.
+
+   I have no programming degree, yet today, I teach people to code, including
+   software engineers and some professional game developers.
+
+** There comes free software
+
+   The people who taught me the most, I met contributing to free software. I
+   learned to code, and much more, thanks to Godot, Blender, etc. I've
+   received personal advice from Juan and Rémi here, reviews, and feedback from
+   fellow contributors, which accelerated my learning beyond imagination. That
+   is because free software developers are people who share.
+
+   With that mix of practice and mentorship to guide my learning, I made more
+   progress than with any tutorial up to that point.
+
+** Becoming a pro with free software
+
+   Remember the fear of success and failure? Contributing to free software gave
+   me a safe environment where I could do small projects that mattered with
+   experienced people to guide me. That kept me motivated, helped me gain more
+   confidence, and lead me to find meaning and purpose in my work.
+
+** The self-made man is a myth
+
+   We like the tale of the self-made individual. The American dream. Someone who
+   works hard to rise to the top all by themselves. But that's a myth: we are
+   social animals, born weak and hopeless. We are nothing without one another.
+   Without care and people to educate us, we would die.
+
+   If you, like me, have ever tried to make your dream game, a mix of Final
+   Fantasy, GTA, and World of Warcraft, alone, of course, you may have hit a
+   wall and failed miserably. You can't do it alone, and it's not just a
+   question of time: you can't know everything you need to know to make a killer
+   game with that. You can't take the best decisions without the rich experience
+   of others.
+
+** Now you know
+
+   Now you know my secret: I ended up where I am for most part because I embrace
+   collaboration. Working with others, to give a bit of time and energy, and
+   listening to people.
+
+** GDQuest
+
+   As my positive experience with free software affected me, it also influenced
+   our company.
+
+   I founded a social company called GDQuest, or Game Design Quest. We teach
+   people to make games using free software and use educational projects to
+   produce, promote, and contribute to open source projects ourselves.
+
+   We are now a small, mostly part-time team, trying to grow so we can get more
+   done.
+
+** Our mission
+
+   Just like good games revolve around a core mechanic or a fundamental theme,
+   we have a core mission. At first, it was helping you become better game
+   developers. The focus is now on collaboration. Our mission evolved into
+   "*bringing people together* to become better game developers." Bringing
+   People Together to Become Better Game Developers
+
+** Easier said than done
+
+   It's challenging to get people to give of themselves in a world where we tend
+   to praise and admire the takers. For example, today, billionaires can be seen
+   as successful people, as geniuses, even if they contribute to the toxic
+   inequalities of our time. I believe this is changing, although individuality
+   and competition still tend to be exacerbated.
+
+** What drives us?
+
+   Taking does not make us happy or motivated. Possessions do not bring
+   happiness. You can have a lot, but if you're lonely, I don't think it will
+   help you. What can drive us then?
+
+   - Connections. Existing in the eyes and the mind of someone else, feeling
+     loved or cared for.
+   - Responsibility. Having meaning and purpose in our lives. Doing things that
+     matter for those who care.
+   - Harmony. Respecting yourself and acting according to your values.
+
+   You can get all that contributing to free software, and more.
+
+** Shared Interests
+
+   Shared interests can get people started. Having a common need or problem to
+   solve. We have had some success creating open projects that aligned with
+   other people's interests. For example, we are 13 direct contributors on Open
+   RPG, with entire features written by community-members.
+
+   In the future, we're looking to go one step further to speak to more people.
+   To go beyond just teaching or revolving around Godot itself.
+
+** Making open games with everyone
+
+   We are looking to create projects that open the doors to more than just
+   developers. We want to get all sorts of people involved in creating
+   meaningful games and apps together.
+
+   Lately, with the team, we have been talking about what gets people to care
+   about the work we do and to stick together.
+
+   I think we lack a narrative to get one step further. In general, we human
+   beings need stories that move us to feel connected to a goal or a cause.
+   Something that clicks or speaks right to our hearts.
+
+   Even Godot uses a story to poke at your curiosity. The first line you'll see
+   on the official website is an intriguing wordplay: "Godot, the game engine
+   you waited for."
+
+** What story?
+
+   There is a topic that's dear to me, that we are all concerned by, and that I
+   think has the potential to bring people together: ecology.
+
+   Imagine for a second: people from all around the globe coming together to
+   improve our understanding of complex environmental issues with free and
+   open source games.
+
+   How does that sound to you?
+
+   I'm not thinking only about climate change here:
+
+   1. Pollution, the first cause of death in the world today
+   2. Water access
+   3. The way we produce food
+
+   There's a heap of complex, polarizing problems for us to approach and to play
+   with. And that's exactly where games shine, simulations in particular.
+
+** Great projects are made together
+
+   I'm not saying any of this is easy to do. Today, I'm proposing an idea to
+   you.
+
+   We, free software developers, have a superpower. We can bring diverse people
+   together to solve complex problems in a way that benefits everybody.
+
+   We may all come from different backgrounds, live in different time zones, we
+   manage to create great projects organically. As such, the work we do
+   together is more than the sum of our contributions.
+
+   Meaning, a sense of community, technical challenges, an inspiring narrative.
+   We, all together, are the driving force.

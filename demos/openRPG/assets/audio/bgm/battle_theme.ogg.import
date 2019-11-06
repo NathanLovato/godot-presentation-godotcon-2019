@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/battle_theme.ogg-3370786b5871839e0a86aa0567b12361.oggstr"
+
+[deps]
+
+source_file="res://demos/openRPG/assets/audio/bgm/battle_theme.ogg"
+dest_files=[ "res://.import/battle_theme.ogg-3370786b5871839e0a86aa0567b12361.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

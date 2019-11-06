@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/Slide/Slide.tscn" type="PackedScene" id=1]
+[ext_resource path="res://content/creating-open-games-together/title.png" type="Texture" id=2]
+
+[node name="Title" instance=ExtResource( 1 )]
+visible = true
+modulate = Color( 1, 1, 1, 1 )
+
+[node name="title" type="TextureRect" parent="." index="1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

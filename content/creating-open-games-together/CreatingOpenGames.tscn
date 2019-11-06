@@ -1,0 +1,103 @@
+[gd_scene load_steps=25 format=2]
+
+[ext_resource path="res://content/creating-open-games-together/slides/02.WhatYoullLearn.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/Presentation/Presentation.gd" type="Script" id=2]
+[ext_resource path="res://src/Presentation/Slides.gd" type="Script" id=3]
+[ext_resource path="res://assets/theme/presentation.theme" type="Theme" id=4]
+[ext_resource path="res://content/creating-open-games-together/slides/00.Title.tscn" type="PackedScene" id=5]
+[ext_resource path="res://content/creating-open-games-together/slides/01.HeroMySecret.tscn" type="PackedScene" id=6]
+[ext_resource path="res://content/creating-open-games-together/slides/06.SelfTaught.tscn" type="PackedScene" id=7]
+[ext_resource path="res://content/creating-open-games-together/slides/07.FreeSoftware.tscn" type="PackedScene" id=8]
+[ext_resource path="res://content/creating-open-games-together/slides/13.BringingPeopleTogether.tscn" type="PackedScene" id=9]
+[ext_resource path="res://content/creating-open-games-together/slides/05.ThenGDQuest.tscn" type="PackedScene" id=10]
+[ext_resource path="res://content/creating-open-games-together/slides/12.OurMission.tscn" type="PackedScene" id=11]
+[ext_resource path="res://content/creating-open-games-together/slides/08.SelfMadeManMyth.tscn" type="PackedScene" id=12]
+[ext_resource path="res://content/creating-open-games-together/slides/16.MakingGamesWithEveryone.tscn" type="PackedScene" id=13]
+[ext_resource path="res://content/creating-open-games-together/slides/14.WhatDrivesUs.tscn" type="PackedScene" id=14]
+[ext_resource path="res://content/creating-open-games-together/slides/10.HeroGDQuest.tscn" type="PackedScene" id=15]
+[ext_resource path="res://content/creating-open-games-together/slides/11.GDQuest.tscn" type="PackedScene" id=16]
+[ext_resource path="res://content/creating-open-games-together/slides/09.NowYouKnow.tscn" type="PackedScene" id=17]
+[ext_resource path="res://content/creating-open-games-together/slides/04.FearfulKid.tscn" type="PackedScene" id=18]
+[ext_resource path="res://content/creating-open-games-together/slides/17.AStory.tscn" type="PackedScene" id=19]
+[ext_resource path="res://content/creating-open-games-together/slides/15.OpenRPG.tscn" type="PackedScene" id=20]
+[ext_resource path="res://content/creating-open-games-together/slides/03.MasterProcrastinator.tscn" type="PackedScene" id=21]
+[ext_resource path="res://content/creating-open-games-together/slides/18.GreatProjects.tscn" type="PackedScene" id=22]
+[ext_resource path="res://src/TouchControls/SwipeDetector/SwipeDetector.tscn" type="PackedScene" id=23]
+[ext_resource path="res://src/TouchControls/TouchControls/TouchControls.tscn" type="PackedScene" id=24]
+
+[node name="CreatingOpenGames" type="Node"]
+script = ExtResource( 2 )
+
+[node name="Slides" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+skip_animation = false
+animation_speed = 1.0
+
+[node name="Title" parent="Slides" instance=ExtResource( 5 )]
+visible = false
+
+[node name="HeroMySecret" parent="Slides" instance=ExtResource( 6 )]
+visible = false
+
+[node name="WhatYoullLearn" parent="Slides" instance=ExtResource( 1 )]
+visible = false
+
+[node name="MasterProcrastinator" parent="Slides" instance=ExtResource( 21 )]
+visible = false
+
+[node name="FearfulKid" parent="Slides" instance=ExtResource( 18 )]
+visible = false
+
+[node name="ThenGDQuest" parent="Slides" instance=ExtResource( 10 )]
+visible = false
+
+[node name="SelfTaught" parent="Slides" instance=ExtResource( 7 )]
+visible = false
+
+[node name="FreeSoftware" parent="Slides" instance=ExtResource( 8 )]
+visible = false
+
+[node name="SelfMadeManMyth" parent="Slides" instance=ExtResource( 12 )]
+visible = false
+
+[node name="NowYouKnow" parent="Slides" instance=ExtResource( 17 )]
+visible = false
+
+[node name="HeroGDQuest" parent="Slides" instance=ExtResource( 15 )]
+visible = false
+
+[node name="Mannequiny" parent="Slides" instance=ExtResource( 16 )]
+visible = false
+
+[node name="OurMission" parent="Slides" instance=ExtResource( 11 )]
+visible = false
+
+[node name="BringingPeopleTogether" parent="Slides" instance=ExtResource( 9 )]
+visible = false
+
+[node name="WhatDrivesUs" parent="Slides" instance=ExtResource( 14 )]
+visible = false
+
+[node name="OpenRPG" parent="Slides" instance=ExtResource( 20 )]
+visible = false
+
+[node name="MakingGamesWithEveryone" parent="Slides" instance=ExtResource( 13 )]
+visible = false
+
+[node name="AStory" parent="Slides" instance=ExtResource( 19 )]
+visible = false
+
+[node name="MakingGamesWithEveryone2" parent="Slides" instance=ExtResource( 22 )]
+visible = false
+
+[node name="SwipeDetector" parent="." instance=ExtResource( 23 )]
+
+[node name="TouchControls" parent="." instance=ExtResource( 24 )]
+[connection signal="slide_change_requested" from="TouchControls" to="." method="_on_TouchControls_slide_change_requested"]
